@@ -1,2 +1,2 @@
-# MasterBall
-Pokemon Catcher
+# Pokemon Catcher
+
