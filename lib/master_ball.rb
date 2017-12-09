@@ -4,12 +4,17 @@ class MasterBall
 
   # comment
   def run
+    input = gets.chomp
+    init_map(input)
+  end
+
+  # comment
+  def init_map(input)
     @position_x = 0
     @position_y = 0
     @pokemon_map = Set.new []
-    @pokemon_map << ("#{@position_x};#{@position_y}")
-    input = gets.chomp
-    input_validation(input)
+    @pokemon_map << ("#{@position_x};#{@position_y}")   
+    input_validation(input) 
   end
 
   # private methods are grouped near the end
