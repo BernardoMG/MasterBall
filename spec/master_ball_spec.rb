@@ -11,7 +11,6 @@ describe MasterBall do
 
     it 'should catch only two pokemons' do
       moves = "N"
-      subject.init_map(moves)            
       expected_pokemons = "2\n"
       expect {
         subject.init_map(moves)
